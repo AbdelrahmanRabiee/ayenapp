@@ -55,6 +55,7 @@ INSTALLED_APPS = [
 
 LOCAL_APPS = [
     'users',
+    'task_management',
 ]
 
 INSTALLED_APPS += LOCAL_APPS
@@ -145,6 +146,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# https://docs.djangoproject.com/en/dev/ref/settings/#static-root
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # MEDIA
 # ------------------------------------------------------------------------------
