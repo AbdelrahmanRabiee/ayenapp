@@ -329,7 +329,6 @@ tags
 [Ss]cripts
 pyvenv.cfg
 pip-selfcheck.json
-.env
 
 
 ### Project template
@@ -339,7 +338,6 @@ blueridge/media/
 .pytest_cache/
 
 
-.env
 .envs/*
 !.envs/.local/
 
