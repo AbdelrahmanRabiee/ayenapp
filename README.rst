@@ -5,7 +5,7 @@ Pre-interview technical assessment task!
 
 .. image:: https://img.shields.io/badge/built%20with-Django%20-ff69b4.svg
      :target: https://www.djangoproject.com/
-     :alt: Built with Django  
+     :alt: Built With Django  
 
 
 :License: MIT
